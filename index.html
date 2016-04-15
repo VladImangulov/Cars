@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>cars</title>
+    <script src="dialogs.js"></script>
+    <script src="jquery-2.2.0.js"></script>
+    <script>window.$ = window.jQuery = require('./jquery-2.2.0.js');</script>
+    <script src="events.js"></script>
+    <link type="text/css" rel="stylesheet" href="game.css">
+</head>
+<body bgcolor="green" >
+<input type="button" value="Новая игра" onclick="newGame();">
+<input type="button" value="Сохранить игру" onclick="saveGame();">
+<input type="button" value="Загрузить игру" onclick="restoreGame();">
+<label>     Влад Имангулов 2016 (с) v1.0</label>
+
+    <div id="gameFieldContainer">
+        <div id="player"></div>
+
+        <div id="roadContainer">
+            <div id="roadId" class="road"></div>
+            <div class="road"></div>
+            <div class="road"></div>
+            <div class="road"></div>
+        </div>
+
+    </div>
+
+</body>
+</html>

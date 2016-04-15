@@ -1,0 +1,9 @@
+function buttonPress() {
+    alert("hello");
+//    electron.dialog.showMessageBox(
+//        {
+//            message: "The file has been saved! :-)",
+//            buttons: ["OK", "Cancel"]
+//        }
+//    );
+}
